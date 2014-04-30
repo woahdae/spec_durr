@@ -38,6 +38,12 @@ Or install it yourself as:
 
     spec_durr Tests/Specs/**/*.m
 
+Also, to get a HTML file with colored formatting, use
+[aha](https://github.com/theZiz/aha) like so:
+
+    brew install aha # or whatever
+    spec_durr Tests/Specs/**/*.m | aha > spec_report.html
+
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/spec_durr/fork )
